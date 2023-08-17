@@ -7,11 +7,11 @@ public class AddPatientTest {
 
 	@Test(groups = "regression")
 	public void addPatientTest() {
-		System.out.println("Patients added");
+		System.out.println("Patients regression added");
 	}
 	
 	@Test(groups = "smoke")
 	public void managePatientTest() {
-		System.out.println("Patients visible");
+		System.out.println("Patients smoke visible");
 	}
 }
