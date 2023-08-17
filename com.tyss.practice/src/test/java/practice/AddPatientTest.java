@@ -7,6 +7,7 @@ public class AddPatientTest {
 
 	@Test(groups = "regression")
 	public void addPatientTest() {
+
 		System.out.println("Patient added");
 	}
 	
