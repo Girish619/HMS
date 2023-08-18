@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 16 14:46:48 IST 2023</td>
+<td>Started on:</td><td>Fri Aug 18 12:11:36 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (227 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (455 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,11 +76,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='practice.AddPatientTest.addPatientTest()'><b>addPatientTest</b><br>Test class: practice.AddPatientTest</td>
-<td><div><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.fail(Assert.java:115)
-	at practice.AddPatientTest.addPatientTest(AddPatientTest.java:11)
+<td title='practice.CheckException.main()'><b>main</b><br>Test class: practice.CheckException</td>
+<td><div><pre>java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:311)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:98)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:94)
+	at practice.CheckException.main(CheckException.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -109,11 +115,17 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1831010686", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1831010686'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.fail(Assert.java:115)
-	at practice.AddPatientTest.addPatientTest(AddPatientTest.java:11)
+</pre></div><a href='#' onClick='toggleBox("stack-trace782228073", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace782228073'><pre>java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:311)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:98)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:94)
+	at practice.CheckException.main(CheckException.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -144,21 +156,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>practice.AddPatientTest@1a20270e</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='practice.AddPatientTest.managePatientTest()'><b>managePatientTest</b><br>Test class: practice.AddPatientTest</td>
-<td></td>
-<td>0</td>
-<td>practice.AddPatientTest@1a20270e</td></tr>
+<td>practice.CheckException@52c3cb31</td></tr>
 </table><p>
 </body>
 </html>
