@@ -4,12 +4,12 @@ import org.testng.annotations.Test;
 
 public class AppointmentTest {
 
-	@Test
+	@Test(groups = "regession")
 	public void viewAppointment() {
 		System.out.println("Appointment is visible");
 	}
 	
-	@Test
+	@Test(groups = "smoke")
 	public void cancelAppointment() {
 		System.out.println("Appointment cancelled");
 	}
